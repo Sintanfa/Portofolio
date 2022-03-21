@@ -1,0 +1,136 @@
+@media screen and (max-width: 1200px) {
+ 
+    .about-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }  
+
+    .photo img {
+        display: flex;
+        height: 250px;
+        width: 200px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .about-text {
+        display: flex;
+        flex-direction: column;
+        color: #fff;
+        margin-top: 1rem;
+        justify-content: center;
+    }
+
+    .border {
+        display: flex;
+        flex-direction: row;
+        border: 2px solid #B1D0E0;
+        width: 600px;
+        height: 200px;
+        margin-top: 2rem;    
+    }
+    
+    .project-content {
+        display: flex;
+        flex-direction: column;  
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+    }
+
+    .tittle-projek {
+        font-family: 'Poppins';
+        font-size: 2rem;
+        font-weight: 500;
+        color: #fff;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        
+    }
+
+    .projek2 {
+        margin: 2rem;
+    }
+    
+    .proojek {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 2rem;
+        margin-left: 2rem;
+       
+    }
+    
+    .sample {
+        font-size: 1rem;
+        font-weight: 700;
+        margin-bottom: .3rem;
+        color: #6998AB;
+        margin-left: 2rem;
+    }
+    
+    .line1 {
+        background-color: #6998AB;
+        width: 3rem;
+        height: 3px;
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+        margin-top: .3rem;
+    }
+    
+    .sinopsis2 {
+        font-family: 'Poppins', sans-serif;
+        font-size: small;
+        font-weight: 100;
+        margin-right: 2rem;    
+        color: #fff;
+        margin-left: 2rem;
+    }
+    
+    .image__img {
+        display: block;
+        width: 450px;
+    }
+    
+    .prooo {
+        display: block;
+        width: 450px;
+        height: 100;
+        
+    }
+    
+    .proo {
+        display: block;
+        width: 450px;
+        height: 100;
+    }
+
+    .project {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background-color: #1A374D;
+        
+    }
+
+
+    .contact {
+	min-height: 100vh;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #1A374D;  
+    display: flex;
+    flex-direction: column; 
+    }
+
+    .chat {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+    }
+}
